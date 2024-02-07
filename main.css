@@ -1,144 +1,106 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+:root{
+    --font-padrao: arial, verdana, helvetica, sans-serif;
+    --font-optional:var(Noto) 
 
-header{
-    padding: 12px;
-    background-color: #8b3cd4;
-    color: #000908;
-
-}
-
-header,
-section h2,
-section h3,
-form button{
-    font-family: 'Noto', sans-serif;
-    font-weight: normal;
-    margin-top: 48px;
-}
-
-body, input, textarea{
-    font-family: 'Noto', sans-serif;
+--cor0: #c5ebd6;
+--cor1: #83e1ad;
+--cor2: #3ddc84;
+--cor3: #1a5c37;
+--cor4: #063d1e;
+--cor5: #ebe5c5;
 }
 
 
-header nav li{
-    display: inline;
-    margin-left: 36px;
-    font-size: 20px;
+#nutri{
+    font-size: 3em;
+    color: #063d1e;
+    background-color: #83e1ad;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: var(--font-padrao);
+    text-align: center;
+    
+
+}
+nav{
+    background-color:#83e1ad;
+    padding: auto;
+    margin-top: -35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
 
-header nav li a{
-    text-decoration-line: underline;
-    color: #0c09a7;
+body{
+    background-color: #3ddc84;
 }
 
-.container{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-header,
-section .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.brand-list img{
-    height: 280px;
-    margin-right: 5px;
-}
-
-.brand-list li{
-    display: flex;
-}
-
-section .container{
-    align-items: flex-start;
-}
-
-.social-links img{
-    height: 48px;
-    margin-inline: 2px;
-    margin-top: 300px;
-}
-
-.social-links li{
-    display: inline-block;
-    margin-right: 8px;
-}
-
-.social-links li a{
+a{
     text-decoration: none;
+    margin-right: 20px;
+    background-color: #ebe5c5;
+   
 }
 
-#contact .container{
-    display: block;
-}
-
-.contact-methods {
+#logo{
+    width: 10%;
+    margin-left: 150px;
     display: flex;
-    justify-content: space-between;
 }
 
-form input,
-form textarea,
-form button{
+
+img{
+    padding: 20px;
+    width: 90%;
+}
+
+h2{
+    font-family:var(--font-padrao);
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+#interatividade{
+    font-size: 1.5em;
+}
+
+.ligacao{
+    width: 50%;
+    margin-left: 100px;
+}
+
+div.video{
+    background-color: #3ddc84;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    width: 90%;
+    height: 90%;
+}
+
+input{
     display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
+    margin-bottom: 10px;
+    width: 30%;
 }
 
-form textarea{
-    resize: none;
-    height: 180px;
+button{
+    width: 20%;
 }
 
-section img{
-    margin-right: 200px;
+.rodape > p{
+    text-align: center;
+    background-color: #3ddc84;
+    
 }
 
-section{
-    padding: 36px 0;
-}
-
-section h2{
-    margin-bottom: 8px;
-}
-
-section p{
-    margin-bottom: 8px;
-}
-
-.store-front{
-    margin-right: 32px;
-}
-
-section h3{
-    margin-bottom: 8px;
-}
-
-form button{
-
-    background-color: aqua;
-    color: #000102;
-    border: none;
-    cursor: pointer;
-}
-
-
-footer{
-    background-color: #8b3cd4;
-    color:  #000908;
-    padding: 36px 0;
-}
-
-footer button{
-    background-color: green;
-}

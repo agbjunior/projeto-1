@@ -5,93 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot Nutrition - O seu nutrir inteligente</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
     
-</head> 
+</head>
+<header>
+    <h1 id="nutri">Robot Nutrition</h1>
+    <nav>
+        <a href="#about">Nossa história </a>
+        <a href="#contact">Fale com o RobotNutri</a>
+    </nav>
+    </header> 
 <body>
-    <header>
-        <div>
-            <h1>Robot Nutrition</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about">Nossa história </a>
-                    </li>
-                    <li>
-                        <a href="#contact">Fale com o RobotNutri</a>
-                    </li>
-                </ul>
-            </nav>
+    <main>
+        <h2>
+            Bem vindos ao canal de Inteligência Artificial de Nutrição!!
+        </h2>
+    <section>
+        <picture id="about">
+            <source media="(max-width: 300px)" srcset="imagens/nutricaoPrincipal">
+        <img src="nutricaoPrincipal.jpg" alt="Logo Principal loja" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus porro accusamus aliquid soluta unde ipsum possimus aut iste perspiciatis harum. Enim ipsa a atque, molestias fuga porro iusto in nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam esse, dolor inventore reprehenderit nam nobis aliquid autem quidem consequuntur soluta illo consequatur enim hic at excepturi consectetur ut corrupti corporis.</p>
+            <img src="nutricaochild1.webp" alt="corpo">
+        </picture>
+        <p>
+        Tenha o que há de mais revolucionário para melhorar a sua alimentação. O canal dispõe de recursos de tecnologia para lhe dar todo o apoio voltado a nutrição durante 24 horas por dia. Tudo isso com um preço totalmente acessível €€€. Cadastre os seus dados no campo e APROVEITE!
+        </p>
+        <h3 id="contact">CONSULTA GRÁTIS</h3>
+        <form id="nome">
+        <label for="nome"></label>
+        <input type="text" id="nome"
+        required>
+        <label for="email"></label>
+        <input type="email" placeholder="email" required>
+        <input type="time" placeholder="Horário" required/>
+        <button type="submit">Enviar</button> 
+        </form>
+        <div id="interatividade">
+        <p>
+            Veja nosso canal no YouTube ↴
+        </p>
         </div>
-    </header>
-    <section id="about">
-        <div class="container">
-            <img src="nutriçaochild3.jpg" alt="Logo Principal loja" />
-            <div>
-                <p>
-                    Bem vindos ao canal de Inteligência Artificial de Nutrição!!
-                </p>
-                <ul class="brand-list">
-                    <li><img src="nutriçaochild2.jpg" alt="nutriçaochild2"></li>
-                    <p>
-                        Tenha o que há de mais revolucionário para melhorar a sua alimentação. O canal dispõe de recursos de tecnologia para lhe dar todo o apoio voltado a nutrição durante 24 horas por dia. Tudo isso com um preço totalmente acessível €€€. Cadastre os seus dados no campo e APROVEITE!
-                    </p>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <div class="contact-methods">
-                <div>
-                    <h3>CONSULTA GRÁTIS</h3>
-                <form>
-                <input type="text" placeholder="Seu nome" required/>
-                <input type="email" placeholder="Seu email" required/>
-                <input type="number" placeholder="Seu telefone" required/>
-                <input type="date" placeholder="Data" required/>
-                <input type="time" placeholder="Horário" required/>
-                <button type="submit">Enviar</button> 
-            </form>
-        </div>
-        <div>
-            <ul class="social-links">
-                <li>
-                    <a href="#" title="Siga-nos no instagram">
-                        <img src="./instagram.png" alt="Logo instagram">
-                    <a>
-                </li>
-                <li>
-                    <a href="#" title="Siga-nos no facebook">
-                        <img src="./facebook.png" alt="Logo facebook">
-                    <a>
-                </li>
-                <li>
-                    <a href="#" title="Siga-nos no twitter">
-                        <img src="./twitter.png" alt="Logo twitter">
-                    <a>
-                </li>
-                <li>
-                    <a href="#" title="Visite o nosso canal no YouTube">
-                        <img src="./youtube.png" alt="Logo YouTube">
-                    <a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            
-        </div>
-    </section>
-    <footer>
-        <div class="container">
+        <article class="ligacao">
+            <a href="pagina2.html" target="_blank"><img src="youtube.png" alt="link youtube"></a>
+        </article>
+        <div id="logo">
+    <img src="./instagram.png" alt="Logo instagram">
+    <img src="./facebook.png" alt="Logo facebook">
+    <img src="./twitter.png" alt="Logo twitter">
+</div>
+</section>
+</main>
+    <footer class="rodape">
             <p>
                 &copy; Anvisa - Conselho Federal de Nutricionistas CFN - Política de Privacidade 
                 <button type="submit">Clique aqui e acesse a Política</button>
             </p>
-        </div>
     </footer>
 </body>
 </html>
